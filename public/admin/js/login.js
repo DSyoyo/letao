@@ -43,7 +43,7 @@ var myLib = {
     })
   },
   validSuccess: function () {
-    $("form").on('success.form.bv', function (e) {
+    $("form").on("success.form.bv", function (e) {
       e.preventDefault();
       //使用ajax提交逻辑
       $.ajax({
@@ -68,8 +68,8 @@ var myLib = {
     });
   },
   reset: function() {
-    $("[type=reset]").on("click",function(){
-      $("#form").data('bootstrapValidator').resetForm();
+    $("[type='reset']").on("click",function(){
+      $("form").data('bootstrapValidator').resetForm();
     })
   }
 }

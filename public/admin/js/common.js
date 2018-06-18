@@ -10,5 +10,20 @@ $(document).ajaxStart(function () {
 $(document).ajaxStop(function () {
   //console.log("ajaxStop在结束一个ajax请求时触发");
   // 结束进度条
-  NProgress.done();
+  setTimeout(function () {
+    NProgress.done();
+  }, 500);
 });
+ 
+if (location.href.indexOf("index.html")==-1 ) {
+  $.ajax({
+    type: "get",
+    url: "/employee/checkRootLogin",
+    success: function(info) {
+      console.log(info);
+      if (info.error == 400) {
+        location.href = "login.html";
+      }
+    }
+  })
+}
