@@ -41,7 +41,8 @@ $(".icon-list").on("click", function () {
 
 // 一级，二级菜单的显示与隐藏
 $(".list").prev().on("click", function () {
-  $(".list").slideToggle();
+  $(this).next().slideToggle();
+
 })
 
 // 退出登录

@@ -69,22 +69,23 @@ a {
 .lt-aside .nav a {
   width: 180px;
   height: 40px;
+  line-height: 40px;
   display: block;
   padding-left: 30px;
   border-left: 3px solid transparent;
 }
-.lt-aside .nav .list {
+.lt-aside .nav a.now {
+  border-left-color: #069;
+  background-color: #1d1f21;
+  color: #fff;
+}
+/* 写了行内样式 */
+/* .lt-aside .nav .list {
   display: none;
-}
+} */
 .lt-aside .nav .list a {
-  width: 180px;
-  height: 40px;
   padding-left: 50px;
-  border-left: 3px solid transparent;
-}
-.lt-aside .nav .list.now {
-  display: block;
-}
+} 
 
 /* 侧边栏结束 */
 .lt-info {
