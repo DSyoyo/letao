@@ -74,7 +74,7 @@ $(function () {
             render();
   
             // 重置表单
-           $("form").data("bootstrapValidator").reset();
+           $("form").data("bootstrapValidator").resetForm(true);
           }
         }
       })
