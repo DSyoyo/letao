@@ -36,7 +36,7 @@ $(function () {
     $("#secondModal").modal("show");
     $.ajax({
       type: "get",
-      url: "/category/querySecondCategoryPaging",
+      url: "/category/queryTopCategoryPaging",
       data: {
         page: 1,
         pageSize: 100
