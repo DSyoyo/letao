@@ -1,0 +1,30 @@
+/* 导航 */
+.lt-nav {
+  padding: 10px;
+}
+.lt-nav li {
+  float: left;
+  width: 33.33%;
+}
+.lt-product {
+  padding: 10px;
+}
+.lt-product .item {
+  display: block;
+  width: 48%;
+  float: left;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.lt-product .item:nth-child(even) {
+  margin-left: 4%;
+}
+
+.lt-product .item span:nth-child(1) {
+  color: red;
+}
+.lt-product .item span:nth-child(2) {
+  text-decoration: line-through;
+}
