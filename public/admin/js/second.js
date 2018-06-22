@@ -12,7 +12,7 @@ $(function () {
         pageSize: pageSize
       },
       success: function (info) {
-        //console.log(info);
+        console.log(info);
         var html = template("tpl", info);
         $("tbody").html(html);
 
@@ -42,7 +42,7 @@ $(function () {
         pageSize: 100
       },
       success: function (info) {
-        //console.log(info);
+        console.log(info);
         var html = template("tpl2", info);
         $(".dropdown-menu").html(html);
       }

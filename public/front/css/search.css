@@ -1,0 +1,28 @@
+
+.lt-history {
+  padding: 10px;
+  font-size: 12px;
+  color: #666;
+}
+.lt-history .title span {
+  display: block;
+  height: 30px; 
+  line-height: 30px;
+}
+.lt-history .content ul {
+  border: 1px dashed red;
+}
+.lt-history .content li {
+  height: 30px;
+  border-bottom: 1px dashed red;
+  line-height: 30px;
+  padding-left: 10px;
+}
+.lt-history .content li:last-child {
+  border-bottom: none;
+}
+.content ul li .btn-delete {
+  height: 30px;
+  line-height: 30px;
+  display: block;
+}
