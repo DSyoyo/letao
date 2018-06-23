@@ -89,6 +89,7 @@ img {
   background-color: #fff;
 }
 
+
 .lt-search {
   padding: 10px;
   position: relative;
@@ -105,4 +106,31 @@ img {
   top: 10px;
   right: 10px;
   border-radius: 0 5px 5px 0;
+}
+
+.lt-product {
+  padding: 10px;
+}
+
+.lt-product .item {
+  display: block;
+  width: 48%;
+  float: left;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.lt-product .item p {
+  height: 39px;
+}
+.lt-product .item:nth-child(even) {
+  margin-left: 4%;
+}
+
+.lt-product .item span:nth-child(1) {
+  color: red;
+}
+.lt-product .item span:nth-child(2) {
+  text-decoration: line-through;
 }

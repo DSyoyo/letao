@@ -1,8 +1,10 @@
 /* 导航 */
-.lt-nav {
+.nav {
   padding: 10px;
 }
-.lt-nav li {
+.nav li {
   float: left;
   width: 33.33%;
 }
+
+
