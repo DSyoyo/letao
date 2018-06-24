@@ -98,7 +98,7 @@
           尺码：
           <%
           var temp = size.split("-");
-          for(var i = temp[0]; i <= temp[1]; i++){
+          for(var i = +temp[0]; i <= temp[1]; i++){
           %>
           <span>{{i}}</span>
           <% } %>

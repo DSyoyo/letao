@@ -49,14 +49,14 @@ $(function () {
       },
       success: function (info) {
         console.log(info);
-        if (info.error) {
+        if (info.error===400) {
           //说明没登录,跳转到登录页面, 把当前页的地址传递到了登录页面。
-          location.href = "login.html?retUrl=" + location.href;
+          window.location.href = "login.html?retUrl=" + location.href;
         }
         if (info.success) {
           mui.confirm("添加成功", "温馨提示", ["去购物车", "继续浏览"], function (e) {
             if (e.index == 0) {
-              location.href = cart.html;
+              location.href = "cart.html";
             }
           })
 
