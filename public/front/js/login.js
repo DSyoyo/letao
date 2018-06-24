@@ -37,4 +37,9 @@ $(function(){
   })
 
 
+  $(".mui-btn-link").on("click",function(){
+    location.href = "register.html";
+  })
+
+
 })
