@@ -36,7 +36,6 @@ $(function () {
             $(".getCode").text("再次发送").prop("disabled", false).removeClass("disabled");
           }
         }, 1000);
-
       }
     })
   });

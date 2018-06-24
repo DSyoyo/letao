@@ -1,0 +1,30 @@
+.register-form {
+  padding: 10px;
+}
+
+.register-form .vCode {
+  width: 65%;
+}
+.register-form .get-code  {
+  width: 30%;
+  margin-left: 5%;
+  padding-top: 0;
+}
+.register-form .get-code {
+  height: 40px;
+  font-size: 12px;
+  line-height: 40px;
+}
+.register-form .btn-register {
+  width: 100%;
+  height: 40px;
+}
+
+.register-form .get-code.disabled {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.register {
+  font-size: 12px;
+}
