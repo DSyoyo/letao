@@ -1,0 +1,37 @@
+.lt-footer {
+  height: 55px;
+  background-color: #EFEFF4;
+  padding: 10px;
+}
+
+.proName,
+.proPrice,
+.proSize,
+.proNum,
+.proDesc {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+}
+.proPrice .price {
+  color: red;
+}
+.proPrice .oldPrice {
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.proSize span {
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 12px;
+  background-color: #f5f5f5;
+  line-height: 30px;
+}
+.proSize span.now {
+  background-color: #069;
+}
+
+.proNum span {
+  font-size: 12px;
+  color: #666;
+}
