@@ -36,10 +36,16 @@ $(function(){
 
   })
 
+  $(".btn-reset").on("click",function() {
+    $("[type='text']").val(""),
+    $("[type='password']").val("");
+  })
+
 
   $(".mui-btn-link").on("click",function(){
     location.href = "register.html";
   })
 
+  
 
 })
