@@ -1,0 +1,9 @@
+.left-bar {
+  width: 45%;
+  height: 400px
+}
+.right-pie {
+  width: 45%;
+  height: 400px;
+  margin-left: 10%;
+}
