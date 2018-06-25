@@ -31,15 +31,15 @@
         <div class="mui-scroll">
           <!--这里放置真实显示的DOM内容-->
           <!-- 轮播图 -->
-          
+
           <!-- 描述 -->
-          
+
           <!-- 价格 -->
-          
+
           <!-- 尺码 -->
-          
+
           <!-- 数量 -->
-          
+
         </div>
       </div>
     </div>
@@ -85,38 +85,37 @@
       </div>
       <!-- 描述 -->
       <div class="proName">
-          <strong>{{proName}}</strong>
-          </div>
-          <!-- 价格 -->
-          <div class="proPrice">
-          价格：
-          <span class="price">&yen;{{price}}</span>
-          <span class="oldPrice">&yen;{{oldPrice}}</span>
-          </div>
-          <!-- 尺码 -->
-          <div class="proSize">
-          尺码：
-          <%
-          var temp = size.split("-");
-          for(var i = +temp[0]; i <= temp[1]; i++){
-          %>
-          <span>{{i}}</span>
-          <% } %>
-          
-          </div>
-          <!-- 数量 -->
-          <div class="proNum">
-          数量：
-          <div class="mui-numbox" data-numbox-step='1' data-numbox-min='1' data-numbox-max='{{num}}'>
-            <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
-            <input class="mui-numbox-input" type="number" value="1" />
-            <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
-          </div>
-          <span>剩余数量：{{num}}双</span>
-          </div>
-          <div class="proDesc">
-          详情：{{proDesc}}
-          </div>
+        <strong>{{proName}}</strong>
+      </div>
+      <!-- 价格 -->
+      <div class="proPrice">
+        价格：
+        <span class="price">&yen;{{price}}</span>
+        <span class="oldPrice">&yen;{{oldPrice}}</span>
+      </div>
+      <!-- 尺码 -->
+      <div class="proSize">
+        尺码：
+        <%
+        var temp = size.split("-");
+        for(var i = +temp[0]; i <= temp[1]; i++){
+        %>
+        <span>{{i}}</span>
+        <% } %>
+      </div>
+      <!-- 数量 -->
+      <div class="proNum">
+        数量：
+        <div class="mui-numbox" data-numbox-step='1' data-numbox-min='1' data-numbox-max='{{num}}'>
+          <button class="mui-btn mui-numbox-btn-minus" type="button">-</button>
+          <input class="mui-numbox-input" type="number" value="1" />
+          <button class="mui-btn mui-numbox-btn-plus" type="button">+</button>
+        </div>
+        <span>剩余数量：{{num}}双</span>
+      </div>
+      <div class="proDesc">
+        详情：{{proDesc}}
+      </div>
   </script>
 
 

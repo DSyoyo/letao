@@ -28,6 +28,7 @@ img {
   background-color: #069;
   position: absolute;
   top: 0;
+  z-index: 999;
 }
 .lt-header .icon-left,
 .lt-header .icon-right {
@@ -60,6 +61,7 @@ img {
   background-color: #069;
   position: absolute;
   bottom: 0;
+  z-index: 999;
 }
 .lt-footer li {
   float: left;

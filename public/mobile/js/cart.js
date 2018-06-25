@@ -18,7 +18,7 @@ $(function () {
             type: "get",
             url: "/cart/queryCart",
             success: function (info) {
-              console.log(info);
+              //console.log(info);
               setTimeout(function () {
                 if (info.error === 400) {
                   //没登录，跳转到登录页面 , 登录成功需要回跳
